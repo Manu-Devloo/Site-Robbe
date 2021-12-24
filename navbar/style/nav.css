@@ -1,0 +1,70 @@
+:root {
+  --primarycolor: #4baac5;
+  --secondarycolor: black;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  background-color: var(--primarycolor);
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+}
+
+.navbar .mobile-menu {
+  display: none;
+}
+
+.navbar .mobile-menu-exit {
+  display: none;
+}
+
+.navbar .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 435px;
+  margin: 0;
+  margin-top: 5px;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  float: left;
+}
+
+.navbar .primary-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  float: right;
+  margin-right: 2rem;
+  width: 50vw;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  float: left;
+  margin: 1rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=nav.css.map */

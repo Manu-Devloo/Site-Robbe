@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.conatct {
+  background-color: #a4d2e2;
+  height: 30vh;
+  color: white;
+  padding-right: 3rem;
+}
+
+.conatct a {
+  color: white;
+}
+
+.conatct .contact-links {
+  float: left;
+  text-align: left;
+  list-style-type: none;
+}
+
+.conatct .conatct-rechts {
+  float: right;
+  text-align: right;
+  list-style-type: none;
+}
+
+.conatct .conatct-rechts a {
+  text-decoration: none;
+}
+
+.conatct .Facebook {
+  float: left;
+}
+
+.conatct .Instagram {
+  float: left;
+}
+
+.conatct .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.conatct form {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 50px;
+  padding: 10px;
+  margin-top: 1rem;
+  left: 40%;
+  background-color: #4BAAC5;
+}
+
+.conatct form label input {
+  width: 200px;
+  height: 50px;
+}
+
+.conatct form input {
+  height: 55px;
+}
+/*# sourceMappingURL=contact.css.map */

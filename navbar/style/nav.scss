@@ -1,0 +1,55 @@
+:root {
+    --primarycolor: #4baac5;
+    --secondarycolor: black;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    background-color: var(--primarycolor);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    align-items: center;
+    width: 100vw;
+
+    .mobile-menu {
+        display: none;
+    }
+
+    .mobile-menu-exit {
+        display: none;
+    }
+
+    .logo{
+        display: flex;
+        width: 435px;
+        margin: 0;
+        margin-top: 5px;
+        justify-content: left;
+        align-items: center;
+        float: left;
+    }
+
+    .primary-nav{
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        float: right;
+        margin-right: 2rem;
+        width: 50vw;
+    }
+
+    ul li {
+        list-style-type: none;
+        float: left;
+        margin: 1rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}

@@ -1,0 +1,181 @@
+body {
+    background-color: #e7f4f8;
+}
+
+.container {
+    margin: 3rem;
+}
+
+.initial-Img {
+    position: static;
+}
+
+.Laila {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.covidInfo {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: Verdana;
+    top: 150px;
+    left: 350px;
+    color: white;
+    background-color: #d997b6;
+    height: 150px;
+    width: 150px;
+    border-radius: 5rem;
+    cursor: pointer;
+}
+
+.covidInfo:hover {
+    border-radius: 0.5rem;
+}
+
+.Pasfotos {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: Verdana;
+    top: 350px;
+    left: 350px;
+    color: white;
+    background-color: #d997b6;
+    height: 150px;
+    width: 150px;
+    border-radius: 5rem;
+    cursor: pointer;
+}
+
+.Pasfotos:hover {
+    border-radius: 0.5rem;
+}
+
+.GratisShoot {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: Verdana;
+    top: 150px;
+    right: 350px;
+    color: white;
+    height: 150px;
+    width: 150px;
+}
+
+.KlikHier {
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: Verdana;
+    top: 200px;
+    right: 480px;
+    color: black;
+    background-color: #d997b6;
+    height: 100px;
+    width: 100px;
+    border-radius: 5rem;
+}
+
+.KlikHier:hover {
+    border-radius: 00.5rem;
+}
+
+.gridInfo {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    text-align: center;
+    margin: 3rem;
+    gap: 5%;
+    justify-content: center;
+    font-family: Georgia, Times, "Times New Roman", serif;
+
+    hr {
+        color: pink;
+    }
+
+    h4 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 18px;
+        color: rgb(80, 78, 78);
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1rem;
+        width: 90%;
+    }
+}
+
+.Huwelijik {
+    background-color: white;
+    border-radius: 0.3rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 6px 3px 15px 3px #10101066;
+}
+
+.WhatElse {
+    background-color: white;
+    border-radius: 0.3rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 6px 3px 15px 3px #10101066;
+}
+
+.PersoonlijkeBerdrijfsfoto {
+    background-color: white;
+    border-radius: 0.3rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 6px 3px 15px 3px #10101066;
+}
+
+.PersoonlijkPortret {
+    background-color: white;
+    border-radius: 0.3rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 6px 3px 15px 3px #10101066;
+}
+
+.testimonial{
+    display: grid;
+    margin-top: 5rem;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    gap: 5%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+    h2{
+        color: #4BAAC5;
+    }
+
+    p{
+        font-family: sans-serif;
+        font-size: 14px;
+    }
+
+    svg{
+        height: 32px;
+        width: 32px;
+        color: #4BAAC5;
+        justify-content: center;
+        align-items: center;
+    }
+}
